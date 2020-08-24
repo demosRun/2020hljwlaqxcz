@@ -1,0 +1,588 @@
+<template lang="pug">
+.home
+  plug(_name="module98" _src="https://template.owo.ink/d998fae6830db2ac.owo")
+  img.main-img(src="@|bg.jpg|")
+  plug(_name="module69" _src="https://template.owo.ink/12ee34f7d7c7ac63.owo")
+  .w1000
+    //- 标题文字
+    plug.box(_name="module39" _src="https://template.owo.ink/e3d98286c2b311e1.owo")
+    .lr-box.clear.box-2
+      .fl
+        plug(_name="module12" _src="https://template.owo.ink/eea2d37ca3f6bb1c.owo")
+      .fr
+        h2
+          a(href="" target="_blank") 国务院总理李克强答记者问答记者问答记
+        p 如何准确理解把握习总书记重要讲话的精神内涵？如何使主题教育活动落实更有实效？中央党史和文献研究院研究员黄一兵对习近平重要讲话内容进行的解读。
+        .line
+        h2
+          a(href="" target="_blank") 国务院总理李克强答记者问答记者问答记
+        p 如何准确理解把握习总书记重要讲话的精神内涵？如何使主题教育活动落实更有实效？中央党史和文献研究院研究员黄一兵对习近平重要讲话内容进行的解读。
+        .line
+        ul
+          li
+            a(href="" target="_blank") 总理记者会十句妙答|4年两会看总理政务改革进行时
+          li
+            a(href="" target="_blank") 人民网评：记者会，李克强总理使了三招“降龙十八掌”
+          li
+            a(href="" target="_blank") 总理记者会十句妙答|4年两会看总理政务改革进行时
+          li
+            a(href="" target="_blank") 人民网评：记者会，李克强总理使了三招“降龙十八掌”
+  //- 节日切换
+  .swi-box.box
+    .w1000
+      ul.tab-bar
+        li
+          .time 9月15日
+          .doit-box
+          .text 校园日
+          .edit
+            h1 校园日
+            h2 方黄吉雯：香港青年宜把握“一带一路”新机遇
+            p 方黄吉雯致力于香港与内地的合作交流，并鼓励香港青年把握“一带一路” 机遇，勇敢地走出去。
+            img(src="@|people.png|")
+        li
+          .time 9月16日
+          .doit-box
+          .text 校园日
+          .edit
+            h1 校园日
+            h2 方黄吉雯：香港青年宜把握“一带一路”新机遇
+            p 方黄吉雯致力于香港与内地的合作交流，并鼓励香港青年把握“一带一路” 机遇，勇敢地走出去。
+            img(src="@|people.png|")
+        li
+          .time 9月17日
+          .doit-box
+          .text 校园日
+          .edit
+            h1 校园日
+            h2 方黄吉雯：香港青年宜把握“一带一路”新机遇
+            p 方黄吉雯致力于香港与内地的合作交流，并鼓励香港青年把握“一带一路” 机遇，勇敢地走出去。
+            img(src="@|people.png|")
+        li
+          .time 9月18日
+          .doit-box
+          .text 校园日
+          .edit
+            h1 校园日
+            h2 方黄吉雯：香港青年宜把握“一带一路”新机遇
+            p 方黄吉雯致力于香港与内地的合作交流，并鼓励香港青年把握“一带一路” 机遇，勇敢地走出去。
+            img(src="@|people.png|")
+        li
+          .time 9月19日
+          .doit-box
+          .text 校园日
+          .edit
+            h1 校园日
+            h2 方黄吉雯：香港青年宜把握“一带一路”新机遇
+            p 方黄吉雯致力于香港与内地的合作交流，并鼓励香港青年把握“一带一路” 机遇，勇敢地走出去。
+            img(src="@|people.png|")
+        li
+          .time 9月20日
+          .doit-box
+          .text 校园日
+          .edit
+            h1 校园日
+            h2 方黄吉雯：香港青年宜把握“一带一路”新机遇
+            p 方黄吉雯致力于香港与内地的合作交流，并鼓励香港青年把握“一带一路” 机遇，勇敢地走出去。
+            img(src="@|people.png|")
+      .edit-show
+  .title(style="background-image: url(@|title-1.png|);")
+  .w1000
+    .video-box
+      .video
+  .title(style="background-image: url(@|title-2.png|);")
+  //- 图文列表
+  .w1000
+    ul.img-box.clear.box-2
+      li
+        a(href="" target="_blank")
+          img(src="@|people-2.png|")
+          p 标题标题标题标题标题标题标题
+      li
+        a(href="" target="_blank")
+          img(src="@|people-2.png|")
+          p 标题标题标题标题标题标题标题
+      li
+        a(href="" target="_blank")
+          img(src="@|people-2.png|")
+          p 标题标题标题标题标题标题标题
+      li
+        a(href="" target="_blank")
+          img(src="@|people-2.png|")
+          p 标题标题标题标题标题标题标题
+      li
+        a(href="" target="_blank")
+          img(src="@|people-2.png|")
+          p 标题标题标题标题标题标题标题
+      li
+        a(href="" target="_blank")
+          img(src="@|people-2.png|")
+          p 标题标题标题标题标题标题标题
+  //- 网络安全进单位
+  .title(style="background-image: url(@|title-3.png|);")
+  .w1000 
+    .img-ul-box
+      .item
+        img(src="@|people-3.png|")
+        .text-box
+          h2 习近平这样描述40年改革开放的中国力量
+          p 从农村到城市，从试点到推广，从经济体制改革到全面深化改革，40年众志成城，40年砥砺奋进，40年春风化雨，习近平在博鳌亚洲论坛2018年年会上指出：“40年来，中国人民充分显示了中国力量。
+          ul
+            li
+              a(href="" target="_blank") 壮阔东方潮 奋进新时代：创新绿洲生机勃勃
+            li
+              a(href="" target="_blank") 特稿：探寻深圳的创新基因
+            li
+              a(href="" target="_blank") 从深圳发展奇迹看中国改革开放40年
+            li
+              a(href="" target="_blank") 打开对外开放新局面：为百姓餐桌提供更多选择
+            li
+              a(href="" target="_blank") 人民日报：改革开放再出发
+            li
+              a(href="" target="_blank") 幸福感，在改革的春风里成长
+      .item
+        img(src="@|people-3.png|")
+        .text-box
+          h2 习近平这样描述40年改革开放的中国力量
+          p 从农村到城市，从试点到推广，从经济体制改革到全面深化改革，40年众志成城，40年砥砺奋进，40年春风化雨，习近平在博鳌亚洲论坛2018年年会上指出：“40年来，中国人民充分显示了中国力量。
+          ul
+            li
+              a(href="" target="_blank") 壮阔东方潮 奋进新时代：创新绿洲生机勃勃
+            li
+              a(href="" target="_blank") 特稿：探寻深圳的创新基因
+            li
+              a(href="" target="_blank") 从深圳发展奇迹看中国改革开放40年
+            li
+              a(href="" target="_blank") 打开对外开放新局面：为百姓餐桌提供更多选择
+            li
+              a(href="" target="_blank") 人民日报：改革开放再出发
+            li
+              a(href="" target="_blank") 幸福感，在改革的春风里成长
+      .item
+        img(src="@|people-3.png|")
+        .text-box
+          h2 习近平这样描述40年改革开放的中国力量
+          p 从农村到城市，从试点到推广，从经济体制改革到全面深化改革，40年众志成城，40年砥砺奋进，40年春风化雨，习近平在博鳌亚洲论坛2018年年会上指出：“40年来，中国人民充分显示了中国力量。
+          ul
+            li
+              a(href="" target="_blank") 壮阔东方潮 奋进新时代：创新绿洲生机勃勃
+            li
+              a(href="" target="_blank") 特稿：探寻深圳的创新基因
+            li
+              a(href="" target="_blank") 从深圳发展奇迹看中国改革开放40年
+            li
+              a(href="" target="_blank") 打开对外开放新局面：为百姓餐桌提供更多选择
+            li
+              a(href="" target="_blank") 人民日报：改革开放再出发
+            li
+              a(href="" target="_blank") 幸福感，在改革的春风里成长
+  //- VR展示
+  .title.box(style="background-image: url(@|title-4.png|);")
+  img.vr-show(src="@|vr-show.png|")
+  //- 高峰对话
+  .title.box(style="background-image: url(@|title-5.png|);")
+  .w1000
+    plug.box-2(_name="module149" _src="https://template.owo.ink/c7d6fb9cd44a7b01.owo")
+  //- 嘉宾介绍
+  .title.box(style="background-image: url(@|title-6.png|);")
+  .w1000
+    plug.box-2(_name="module149-2" _src="https://template.owo.ink/c7d6fb9cd44a7b01-2.owo")
+  //- 专家论坛
+  .title(style="background-image: url(@|title-7.png|);")
+  .w1000
+    .video-box-600
+    plug(_name="module141" _src="https://template.owo.ink/dd34f42b0698caf4.owo")
+  //- 征集作品展播
+  .title(style="background-image: url(@|title-9.png|);")
+  .w1000
+    plug(_name="module1412" _src="https://template.owo.ink/dd34f42b0698caf4-2.owo")
+  //- 专家论坛
+  .title(style="background-image: url(@|title-7.png|);")
+  .w1000
+    .card-list.clear
+      .card-list-item.fl
+        img(src="@|people-2.png|" width="312" height="188")
+        ul
+          li
+            a(href="" target="_blank") 壮阔东方潮 奋进新时代：创新绿洲生机勃勃
+          li
+            a(href="" target="_blank") 特稿：探寻深圳的创新基因
+          li
+            a(href="" target="_blank") 从深圳发展奇迹看中国改革开放40年
+          li
+            a(href="" target="_blank") 打开对外开放新局面：为百姓餐桌提供更多选择
+          li
+            a(href="" target="_blank") 人民日报：改革开放再出发
+      .card-list-item.fl
+        img(src="@|people-2.png|" width="312" height="188")
+        ul
+          li
+            a(href="" target="_blank") 壮阔东方潮 奋进新时代：创新绿洲生机勃勃
+          li
+            a(href="" target="_blank") 特稿：探寻深圳的创新基因
+          li
+            a(href="" target="_blank") 从深圳发展奇迹看中国改革开放40年
+          li
+            a(href="" target="_blank") 打开对外开放新局面：为百姓餐桌提供更多选择
+          li
+            a(href="" target="_blank") 人民日报：改革开放再出发
+      .card-list-item.fl
+        img(src="@|people-2.png|" width="312" height="188")
+        ul
+          li
+            a(href="" target="_blank") 壮阔东方潮 奋进新时代：创新绿洲生机勃勃
+          li
+            a(href="" target="_blank") 特稿：探寻深圳的创新基因
+          li
+            a(href="" target="_blank") 从深圳发展奇迹看中国改革开放40年
+          li
+            a(href="" target="_blank") 打开对外开放新局面：为百姓餐桌提供更多选择
+          li
+            a(href="" target="_blank") 人民日报：改革开放再出发
+  //- 网络安全课
+  .title(style="background-image: url(@|title-10.png|);")
+  .w1000.lr-box-2.clear
+    .left.fl
+      .img-box
+        a(href="" target="_blank")
+          img(src="@|people-3.png|" width="500" height="300")
+          p 底部信息底部信息底部信息
+    .right.fr.clear
+      .img-box.fl
+        a(href="" target="_blank")
+          img(src="@|people-3.png|" width="230" height="140")
+          p 底部信息底部信息底部信息
+      .img-box.fl
+        a(href="" target="_blank")
+          img(src="@|people-3.png|" width="230" height="140")
+          p 底部信息底部信息底部信息
+      .img-box.fl
+        a(href="" target="_blank")
+          img(src="@|people-3.png|" width="230" height="140")
+          p 底部信息底部信息底部信息
+      .img-box.fl
+        a(href="" target="_blank")
+          img(src="@|people-3.png|" width="230" height="140")
+          p 底部信息底部信息底部信息
+  //- 高清大图
+  .title(style="background-image: url(@|title-11.png|);")
+  plug(_name="module148" _src="https://template.owo.ink/00bed80a5a9d9df0.owo")
+  plug(_name="module2" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      this.changeTabBar(0)
+      const showList = this.queryAll('.swi-box li')
+      for (let index = 0; index < showList.length; index++) {
+        const element = showList[index];
+        element.setAttribute('o-tap', `changeTabBar(${index})`)
+      }
+      // 第一个轮播图
+      
+    },
+    changeTabBar: function (index) {
+      const list = this.queryAll('.swi-box li')
+      list.forEach(element => {
+        element.classList.remove('active')
+      });
+      list[index].classList.add('active')
+      this.query('.swi-box .edit-show').innerHTML = list[index].getElementsByClassName('edit')[0].innerHTML
+    }
+  }
+</script>
+
+
+<style lang="less">
+.bg {
+  display: block;
+  width: 100%;
+}
+.main-img, .vr-show {
+  display: block;
+  width: 100%;
+}
+.news-head {
+  h1 a {
+    line-height: 70px;
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  p {
+    a {
+      font-size: 18px;
+    }
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+  }
+}
+.lr-box {
+  .fr {
+    width: 440px;
+    h2 {
+      color: #333333;
+      font-size: 23px;
+      line-height: 23px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 14px;
+      text-indent: 2em;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .line {
+      height: 1px;
+      background-color: #dddddd;
+      margin-bottom: 10px;
+    }
+    ul li {
+      height: 25px;
+      font-size: 14px;
+      color: #333;
+      background-image: url('@|doit.png|');
+      background-repeat: no-repeat;
+      background-position: 5px center;
+      padding-left: 20px;
+      line-height: 25px;
+    }
+    a {
+      color: #333;
+    }
+  }
+}
+.box-2 {
+  margin-top: 30px;
+}
+.swi-box {
+  background-color: #1742b3;
+}
+.edit {
+  display: none;
+}
+.swi-box {
+  width: 100%;
+  background-image: url('@|line.png|');
+  background-repeat: no-repeat;
+  background-position: 0 75px;
+  padding: 40px 0;
+  height: 470px;
+  ul {
+    background-image: url('@|bar-bg.png|');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70px;
+    text-align: center;
+    li {
+      display: inline-block;
+      color: #c6b06e;
+      width: 148px;
+      height: 70px;
+      .doit-box {
+        height: 30px;
+        cursor: pointer;
+      }
+      .time {
+        background-image: url('@|time.png|');
+        background-repeat: no-repeat;
+        background-position: 18px center;
+        cursor: pointer;
+      }
+      .text {
+        cursor: pointer;
+      }
+    }
+    li.active .doit-box {
+      background-image: url('@|active-doit.png|');
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+  .edit-show {
+    position: relative;
+    height: 380px;
+    img {
+      position: absolute;
+      right: -400px;
+      left: 0;
+      margin: auto;
+      width: 525px;
+      height: 309px;
+      top: 40px;
+    }
+    h1 {
+      color: #ffe096;
+      margin-top: 35px;
+      line-height: 60px;
+    }
+    h2 {
+      color: #c2af76;
+      width: 400px;
+      line-height: 35px;
+    }
+    p {
+      background-image: url('@|text-box.png|');
+      width: 202px;
+      height: 78px;
+      text-indent: 2em;
+      color: #e3f3ff;
+      padding: 25px 20px;
+      line-height: 22px;
+      position: absolute;
+      bottom: 68px;
+      left: 30px;
+    }
+  }
+}
+.box {
+  margin-top: 40px;
+}
+.title {
+  height: 140px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.video-box {
+  background-image: url('@|pc.png|');
+  width: 992px;
+  height: 768px;
+  margin: 40px auto;
+  .video {
+    width: 934px;
+    height: 531px;
+    position: absolute;
+    left: 29px;
+    top: 29px;
+  }
+}
+.img-box {
+  img, a {
+    display: block;
+    color: #000000;
+  }
+  li {
+    float: left;
+    margin: 0 8px;
+    p {
+      line-height: 25px;
+      height: 50px;
+      font-size: 16px;
+      display: block;
+      margin-top: 5px;
+    }
+  }
+}
+.img-ul-box {
+  .item:nth-child(even) {
+    img {
+      left: 0;
+      right: auto;
+    }
+    .text-box {
+      right: 0;
+      left: auto;
+    }
+  }
+  .item {
+    height: 420px;
+    margin: 60px 0;
+    position: relative;
+    img {
+      height: 420px;
+      position: absolute;
+      display: block;
+      right: 0;
+      top: 0;
+    }
+    .text-box {
+      background-color: rgba(239, 249, 255, 0.9);
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      height: 314px;
+      padding: 20px;
+      width: 360px;
+      p {
+        color: #666666;
+        text-indent: 2em;
+        margin: 10px 0;
+        font-size: 15px;
+        line-height: 23px;
+      }
+      ul {
+        li {
+          line-height: 26px;
+          background-image: url('@|doit.png|');
+          background-repeat: no-repeat;
+          background-position: 3px center;
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+}
+.video-box-600 {
+  width: 1000px;
+  height: 600px;
+}
+.card-list {
+  img {
+    display: block;
+    width: 312px;
+    height: 188px;
+  }
+  li {
+    line-height: 30px;
+    background-image: url('@|doit.png|');
+    background-repeat: no-repeat;
+    background-position: 3px center;
+    padding-left: 15px;
+    font-size: 16px;
+    height: 30px;
+    overflow: hidden;
+    margin-top: 5px;
+  }
+  a {
+    color: black;
+  }
+}
+.card-list-item {
+  width: 312px;
+  overflow: hidden;
+}
+.card-list .card-list-item:nth-child(2) {
+  margin: 0 27px;
+}
+.lr-box-2 {
+  .right {
+    width: 480px;
+  }
+  .img-box {
+    position: relative;
+  }
+  p {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 98%;
+    color: white;
+    line-height: 30px;
+    padding: 0 1%;
+    display: block;
+  }
+  .left {
+    margin-top: 10px;
+  }
+  a {
+    display: block;
+  }
+  .right {
+    .img-box {
+      margin: 10px 5px;
+    }
+  }
+}
+</style>
