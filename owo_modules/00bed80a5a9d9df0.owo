@@ -95,35 +95,31 @@
 }
 
 .prev {
-  background: url(http://www.people.com.cn/img/2016people/images/focus_left_b.png);
-  width: 18px;
-  height: 25px;
+  background: url('@|left-4.png|');
+  width: 56px;
+  height: 109px;
   position: absolute;
   cursor: pointer;
   bottom: 0;
   top: 0;
-  left: 10px;
+  left: 0;
   z-index: 10;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 10px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .next {
-  background: url(http://www.people.com.cn/img/2016people/images/focus_right_b.png);
-  width: 18px;
-  height: 25px;
+  background: url('@|right-4.png|');
+  width: 56px;
+  height: 109px;
   position: absolute;
   cursor: pointer;
   bottom: 0;
   top: 0;
-  right: 10px;
+  right: 0;
   z-index: 10;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 10px;
   background-position: center;
   background-repeat: no-repeat;
 }

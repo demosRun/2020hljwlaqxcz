@@ -7,8 +7,6 @@
             <a href="#">
               <img width="300" height="170" src="{value.image}"/>
               <div class="image-title">{value.title}</div>
-              <!-- 播放按钮 -->
-              <img class="play-button" src="https://cunchu.site/owo/material/tuopin/play.png">
             </a>
           </div>
         </div>

@@ -43,45 +43,45 @@
         li
           .time 9月16日
           .doit-box
-          .text 校园日
+          .text 校园日2
           .edit
-            h1 校园日
+            h1 校园日2
             h2 方黄吉雯：香港青年宜把握“一带一路”新机遇
             p 方黄吉雯致力于香港与内地的合作交流，并鼓励香港青年把握“一带一路” 机遇，勇敢地走出去。
             img(src="@|people.png|")
         li
           .time 9月17日
           .doit-box
-          .text 校园日
+          .text 校园日3
           .edit
-            h1 校园日
+            h1 校园日3
             h2 方黄吉雯：香港青年宜把握“一带一路”新机遇
             p 方黄吉雯致力于香港与内地的合作交流，并鼓励香港青年把握“一带一路” 机遇，勇敢地走出去。
             img(src="@|people.png|")
         li
           .time 9月18日
           .doit-box
-          .text 校园日
+          .text 校园日4
           .edit
-            h1 校园日
+            h1 校园日4
             h2 方黄吉雯：香港青年宜把握“一带一路”新机遇
             p 方黄吉雯致力于香港与内地的合作交流，并鼓励香港青年把握“一带一路” 机遇，勇敢地走出去。
             img(src="@|people.png|")
         li
           .time 9月19日
           .doit-box
-          .text 校园日
+          .text 校园日5
           .edit
-            h1 校园日
+            h1 校园日5
             h2 方黄吉雯：香港青年宜把握“一带一路”新机遇
             p 方黄吉雯致力于香港与内地的合作交流，并鼓励香港青年把握“一带一路” 机遇，勇敢地走出去。
             img(src="@|people.png|")
         li
           .time 9月20日
           .doit-box
-          .text 校园日
+          .text 校园日6
           .edit
-            h1 校园日
+            h1 校园日6
             h2 方黄吉雯：香港青年宜把握“一带一路”新机遇
             p 方黄吉雯致力于香港与内地的合作交流，并鼓励香港青年把握“一带一路” 机遇，勇敢地走出去。
             img(src="@|people.png|")
@@ -178,7 +178,7 @@
               a(href="" target="_blank") 幸福感，在改革的春风里成长
   //- VR展示
   .title.box(style="background-image: url(@|title-4.png|);")
-  img.vr-show(src="@|vr-show.png|")
+  img.vr-show.box-2(src="@|vr-show.png|")
   //- 高峰对话
   .title.box(style="background-image: url(@|title-5.png|);")
   .w1000
@@ -188,18 +188,18 @@
   .w1000
     plug.box-2(_name="module149-2" _src="https://template.owo.ink/c7d6fb9cd44a7b01-2.owo")
   //- 专家论坛
-  .title(style="background-image: url(@|title-7.png|);")
+  .title.box(style="background-image: url(@|title-7.png|);")
   .w1000
-    .video-box-600
+    .video-box-600.box-2
     plug(_name="module141" _src="https://template.owo.ink/dd34f42b0698caf4.owo")
   //- 征集作品展播
-  .title(style="background-image: url(@|title-9.png|);")
+  .title.box(style="background-image: url(@|title-9.png|);")
   .w1000
-    plug(_name="module1412" _src="https://template.owo.ink/dd34f42b0698caf4-2.owo")
+    plug.box-2(_name="module1412" _src="https://template.owo.ink/dd34f42b0698caf4-2.owo")
   //- 专家论坛
-  .title(style="background-image: url(@|title-7.png|);")
+  .title.box(style="background-image: url(@|title-7.png|);")
   .w1000
-    .card-list.clear
+    .card-list.clear.box-2
       .card-list-item.fl
         img(src="@|people-2.png|" width="312" height="188")
         ul
@@ -240,34 +240,35 @@
           li
             a(href="" target="_blank") 人民日报：改革开放再出发
   //- 网络安全课
-  .title(style="background-image: url(@|title-10.png|);")
-  .w1000.lr-box-2.clear
-    .left.fl
-      .img-box
-        a(href="" target="_blank")
-          img(src="@|people-3.png|" width="500" height="300")
-          p 底部信息底部信息底部信息
-    .right.fr.clear
-      .img-box.fl
-        a(href="" target="_blank")
-          img(src="@|people-3.png|" width="230" height="140")
-          p 底部信息底部信息底部信息
-      .img-box.fl
-        a(href="" target="_blank")
-          img(src="@|people-3.png|" width="230" height="140")
-          p 底部信息底部信息底部信息
-      .img-box.fl
-        a(href="" target="_blank")
-          img(src="@|people-3.png|" width="230" height="140")
-          p 底部信息底部信息底部信息
-      .img-box.fl
-        a(href="" target="_blank")
-          img(src="@|people-3.png|" width="230" height="140")
-          p 底部信息底部信息底部信息
+  .title.box(style="background-image: url(@|title-10.png|);")
+  .w1000
+    .box-2.lr-box-2.clear
+      .left.fl
+        .img-box
+          a(href="" target="_blank")
+            img(src="@|people-3.png|" width="500" height="300")
+            p 底部信息底部信息底部信息
+      .right.fr.clear
+        .img-box.fl
+          a(href="" target="_blank")
+            img(src="@|people-3.png|" width="230" height="140")
+            p 底部信息底部信息底部信息
+        .img-box.fl
+          a(href="" target="_blank")
+            img(src="@|people-3.png|" width="230" height="140")
+            p 底部信息底部信息底部信息
+        .img-box.fl
+          a(href="" target="_blank")
+            img(src="@|people-3.png|" width="230" height="140")
+            p 底部信息底部信息底部信息
+        .img-box.fl
+          a(href="" target="_blank")
+            img(src="@|people-3.png|" width="230" height="140")
+            p 底部信息底部信息底部信息
   //- 高清大图
-  .title(style="background-image: url(@|title-11.png|);")
-  plug(_name="module148" _src="https://template.owo.ink/00bed80a5a9d9df0.owo")
-  plug(_name="module2" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
+  .title.box(style="background-image: url(@|title-11.png|);")
+  plug.box-2(_name="module148" _src="https://template.owo.ink/00bed80a5a9d9df0.owo")
+  plug.box(_name="module2" _src="https://template.owo.ink/060579f0b4f1bcaa.owo")
 </template>
 
 <script>
@@ -338,8 +339,8 @@
       margin-bottom: 10px;
     }
     ul li {
-      height: 25px;
-      font-size: 14px;
+      height: 28px;
+      font-size: 16px;
       color: #333;
       background-image: url('@|doit.png|');
       background-repeat: no-repeat;
@@ -393,6 +394,9 @@
         cursor: pointer;
       }
     }
+    li.active {
+      font-weight: bold;
+    }
     li.active .doit-box {
       background-image: url('@|active-doit.png|');
       background-repeat: no-repeat;
@@ -417,21 +421,23 @@
       line-height: 60px;
     }
     h2 {
+      font-size: 24px;
       color: #c2af76;
       width: 400px;
-      line-height: 35px;
+      line-height: 40px;
     }
     p {
       background-image: url('@|text-box.png|');
-      width: 202px;
+      width: 362px;
       height: 78px;
       text-indent: 2em;
       color: #e3f3ff;
       padding: 25px 20px;
-      line-height: 22px;
+      line-height: 33px;
       position: absolute;
       bottom: 68px;
-      left: 30px;
+      left: 4px;
+      font-size: 21px;
     }
   }
 }

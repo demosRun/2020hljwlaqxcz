@@ -178,7 +178,7 @@ li {
   color: unset;
 }
 .swiper-box {
-  height: 328px;
+  height: 340px;
   overflow: hidden;
   width: 520px;
   margin: 0 auto;
@@ -202,7 +202,7 @@ li {
 
 .swiper-box .swiper-container {
   width: 100%;
-  height: 328px;
+  height: 340px;
   margin: 0;
   overflow: hidden;
   position: relative;
@@ -301,9 +301,10 @@ li {
 
 .conn li .fr p {
   text-indent: 2em;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.7;
   color: #888888;
+  margin-top: 9px;
 }
 
 .conn .prev {
@@ -702,35 +703,31 @@ li {
 }
 
 .module148 .prev {
-  background: url(http://www.people.com.cn/img/2016people/images/focus_left_b.png);
-  width: 18px;
-  height: 25px;
+  background: url('../resource/left-4.png');
+  width: 56px;
+  height: 109px;
   position: absolute;
   cursor: pointer;
   bottom: 0;
   top: 0;
-  left: 10px;
+  left: 0;
   z-index: 10;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 10px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .module148 .next {
-  background: url(http://www.people.com.cn/img/2016people/images/focus_right_b.png);
-  width: 18px;
-  height: 25px;
+  background: url('../resource/right-4.png');
+  width: 56px;
+  height: 109px;
   position: absolute;
   cursor: pointer;
   bottom: 0;
   top: 0;
-  right: 10px;
+  right: 0;
   z-index: 10;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 10px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -848,8 +845,8 @@ li {
 }
 
 .lr-box .fr ul li {
-  height: 25px;
-  font-size: 14px;
+  height: 28px;
+  font-size: 16px;
   color: #333;
   background-image: url('../resource/doit.png');
   background-repeat: no-repeat;
@@ -914,6 +911,10 @@ li {
   cursor: pointer;
 }
 
+.swi-box ul li.active {
+  font-weight: bold;
+}
+
 .swi-box ul li.active .doit-box {
   background-image: url('../resource/active-doit.png');
   background-repeat: no-repeat;
@@ -942,22 +943,24 @@ li {
 }
 
 .swi-box .edit-show h2 {
+  font-size: 24px;
   color: #c2af76;
   width: 400px;
-  line-height: 35px;
+  line-height: 40px;
 }
 
 .swi-box .edit-show p {
   background-image: url('../resource/text-box.png');
-  width: 202px;
+  width: 362px;
   height: 78px;
   text-indent: 2em;
   color: #e3f3ff;
   padding: 25px 20px;
-  line-height: 22px;
+  line-height: 33px;
   position: absolute;
   bottom: 68px;
-  left: 30px;
+  left: 4px;
+  font-size: 21px;
 }
 
 .box {
