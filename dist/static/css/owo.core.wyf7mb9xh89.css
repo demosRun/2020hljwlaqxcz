@@ -799,11 +799,27 @@ li {
   width: 100%;
 }
 
-.main-img,
+.main-img img,
 .vr-show {
   display: block;
   width: 100%;
 }
+
+.main-img {
+  position: relative;
+}
+
+.main-img .text {
+  position: absolute;
+  width: 46%;
+  height: auto;
+  left: 0;
+  right: 0;
+  top: 15%;
+  bottom: 0;
+  margin: auto;
+}
+
 
 .news-head h1 a {
   line-height: 70px;
@@ -891,7 +907,7 @@ li {
 .swi-box ul li {
   display: inline-block;
   color: #c6b06e;
-  width: 148px;
+  width: 143px;
   height: 70px;
 }
 
@@ -978,6 +994,7 @@ li {
   width: 992px;
   height: 768px;
   margin: 40px auto;
+  position: relative;
 }
 
 .video-box .video {
@@ -1126,3 +1143,45 @@ li {
   margin: 10px 5px;
 }
 
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.bounceIn {
+  animation-duration: 0.75s;
+  animation-name: bounceIn;
+}

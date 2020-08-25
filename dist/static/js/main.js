@@ -7,3 +7,10 @@ function postMsg() {
 		document.form.submit();
 	}
 }
+
+function turn (ind) {
+	console.log(ind)
+	if (owo.script.page.template.module149.data.swiperIt) {
+		owo.script.page.template.module149.data.swiperIt.turn(ind)
+	}
+}

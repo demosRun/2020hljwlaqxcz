@@ -81,3 +81,19 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 .pc .no-pc, .phone .no-phone {
   display: none;
 }
+
+.select-box {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+
+.select-box .item {
+  padding: 5px 10px;
+  background-color: #f6f5ff;
+  border: 1px solid #eae9fc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 0 20px;
+  cursor: pointer;
+}

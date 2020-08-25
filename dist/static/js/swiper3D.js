@@ -256,6 +256,23 @@ swiperIt.prototype.next = function () {
   this.styleList.unshift(this.styleList.pop())
   this.move()
 }
+swiperIt.prototype.turn = function (index) {
+  // 避免频繁刷新
+  if (this.isPause) clearTimeout(this.isPause)
+  var _this = this
+  this.isPause = setTimeout(function() {
+    _this.isPause = null
+  }, 3000)
+  // 停止自动播放
+  if (this.config.pagination) {
+    this.config.pagination.children[this.activeIndex].classList.remove('active')
+  }
+  
+  this.activeIndex = index
+  if (this.activeIndex >= this.contL.length) this.activeIndex = 0
+  this.styleList.unshift(this.styleList.pop())
+  this.move()
+}
 swiperIt.prototype.prev = function () {
   // 避免频繁刷新
   var _this = this
